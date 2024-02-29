@@ -1,10 +1,29 @@
-class Ticket {
-  constructor(guild, category, creator, text) {
-    this.Guild = guild;
-    this.Category = category;
-    this.Creator = creator;
-    this.Text = text;
+{
+  "guilds": {
+    "1212151869338685440": {
+      "category": "categoryId1",
+      "tickets": [
+        {
+          "id": "ticketId1",
+          "creatorId": "creatorId1",
+          "text": "Contenu du ticket 1"
+        },
+        {
+          "id": "ticketId2",
+          "creatorId": "creatorId2",
+          "text": "Contenu du ticket 2"
+        }
+      ]
+    },
+    "anotherGuildId": {
+      "category": "anotherCategoryId",
+      "tickets": [
+        {
+          "id": "anotherTicketId1",
+          "creatorId": "anotherCreatorId1",
+          "text": "Contenu du ticket 1 pour une autre guilde"
+        }
+      ]
+    }
   }
 }
-
-module.exports = Ticket;
